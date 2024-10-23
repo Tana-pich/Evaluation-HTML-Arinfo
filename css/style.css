@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+header {
+    background-color: black;
+    max-height: 10vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+.imgLogo {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.imgLogo img {
+    height: 70%;
+}
+
+.listNav ul {
+    display: flex;
+}
+
+.listNav ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: x-small;
+}
+
+.listNav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.listNav li a:hover {
+    color: orangered;
+}
+
+.devis {
+    background-color: orangered;
+    font-size: 7px;
+    min-width: 13vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+/* main */
+/* sectionUne */
+.sectionUne {
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    background-color: orangered;
+    width: 50%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.right {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right p {
+    font-size: small;
+}
+
+/* main */
+/* sectionDeux */
+.sectionDeux {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.blocOrange {
+    background-color: orangered;
+    height: 200px;
+}
+
+.blocNoir {
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+
+/* main */
+/* sectionTrois */
+.sectionTrois {
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100vw;
+}
+
+.devisParent {
+    width: 50vw;
+}
+
+.devisLeft h2 {
+    color: white;
+    font-size: 40px;
+    padding-right: 100px;
+}
+
+.devisLeft p {
+    font-size: x-small;
+}
+
+#envoyerBtn {
+    background-color: black;
+    color: white;
+}
+
+/* footer */
+.container {
+    background-color: black;
+}
+
+.footTop {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.linkRessource a {
+    text-decoration: none;
+    color: white;
+}
+
+/* footBot */
+.footBot {
+    display: flex;
+    
+}
+
+.copy p {
+    color: white;
+}
